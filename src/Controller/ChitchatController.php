@@ -23,4 +23,12 @@ class ChitchatController extends AbstractController
        return $this->render('chitchat/messanger.html.twig');
     }
 
+    /**
+     * @Route("/chitchat/videocall")
+     */
+    public function videocall()
+    {
+       return $this->render('chitchat/videocall.html.twig');
+    }
+
 }
